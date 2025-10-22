@@ -1,4 +1,14 @@
-<h2><a href="https://leetcode.com/problems/two-sum">Two Sum</a></h2> <img src='https://img.shields.io/badge/Difficulty-Easy-brightgreen' alt='Difficulty: Easy' /><hr><p>Given an array of integers <code>nums</code>&nbsp;and an integer <code>target</code>, return <em>indices of the two numbers such that they add up to <code>target</code></em>.</p>
+
+
+<h2><a href="https://leetcode.com/problems/two-sum">Two Sum</a></h2> <img src='https://img.shields.io/badge/Difficulty-Easy-brightgreen' alt='Difficulty: Easy' />
+<h2>My Notes</h2>
+<p> In this problem we need to find the index of two elements present in the list that add up to give the target.</p>
+<p>Conversely equal to finding elements which when subtracting from the target are present in the list</p>
+<p>We need to create a hashmap which will have all unique elements from the given list, we will use a loop to find the difference of the target and </p> 
+<p> the elements in the list and compare them to the elements present in the hashmap.</p>
+<p>If present, we will return the indices. If not,we will add that element to the hashmap.</p>
+
+<hr><p>Given an array of integers <code>nums</code>&nbsp;and an integer <code>target</code>, return <em>indices of the two numbers such that they add up to <code>target</code></em>.</p>
 
 <p>You may assume that each input would have <strong><em>exactly</em> one solution</strong>, and you may not use the <em>same</em> element twice.</p>
 
@@ -38,4 +48,3 @@
 </ul>
 
 <p>&nbsp;</p>
-<strong>Follow-up:&nbsp;</strong>Can you come up with an algorithm that is less than <code>O(n<sup>2</sup>)</code><font face="monospace">&nbsp;</font>time complexity?
