@@ -5,7 +5,4 @@ class Solution:
         
         s = str(x)
 
-        if s == s[::-1]:
-            return True
-        
-        return False
+        return s == s[::-1]
